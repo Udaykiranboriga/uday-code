@@ -1,0 +1,273 @@
+SORT BY-------------------------
+<div _ngcontent-serverapp-c103="" class="short_by_object ng-star-inserted">
+  <!-- Popularity -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_popularity"
+    value="sortByPopularity"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_popularity">
+    Popularity
+  </label>
+
+  <!-- Experience: High to Low -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_exp_high"
+    value="sortByExperience_1"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_exp_high">
+    Experience : High to Low
+  </label>
+
+  <!-- Experience: Low to High -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_exp_low"
+    value="sortByExperience_0"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_exp_low">
+    Experience : Low to High
+  </label>
+
+  <!-- Total Orders: High to Low -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_orders_high"
+    value="sortByOrders_1"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_orders_high">
+    Total orders : High to Low
+  </label>
+
+  <!-- Total Orders: Low to High -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_orders_low"
+    value="sortByOrders_0"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_orders_low">
+    Total orders : Low to High
+  </label>
+
+  <!-- Price: High to Low -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_price_high"
+    value="sortByPrice_1"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_price_high">
+    Price : High to Low
+  </label>
+
+  <!-- Price: Low to High -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_price_low"
+    value="sortByPrice_0"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_price_low">
+    Price : Low to High
+  </label>
+
+  <!-- Rating: High to Low -->
+  <input
+    _ngcontent-serverapp-c103=""
+    type="radio"
+    name="shorting"
+    autocomplete="off"
+    class="form-check-input"
+    id="short_rating"
+    value="sortByRating_1"
+  />
+  <label _ngcontent-serverapp-c103="" class="lable_radio" for="short_rating">
+    Rating : High to Low
+  </label>
+</div>
+
+
+FILTER-----------------
+<!-- Filter Button -->
+<button 
+    _ngcontent-serverapp-c103="" 
+    type="button" 
+    class="btn btn-primary" 
+    data-bs-toggle="modal" 
+    data-bs-target="#exampleModal2"
+>
+    Filter
+</button>
+
+<!-- Modal Structure -->
+<div
+    _ngcontent-serverapp-c103=""
+    id="exampleModal2"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel2"
+    aria-hidden="true"
+    class="modal fade modal_short_filter main_filter"
+>
+    <div _ngcontent-serverapp-c103="" class="modal-dialog">
+        <div _ngcontent-serverapp-c103="" class="modal-content">
+            <div _ngcontent-serverapp-c103="" class="modal-header">
+                <h6 _ngcontent-serverapp-c103="">Filters</h6>
+                <button
+                    _ngcontent-serverapp-c103=""
+                    type="button"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                    class="btn-close"
+                ></button>
+            </div>
+            <div _ngcontent-serverapp-c103="" class="modal-body">
+                <div _ngcontent-serverapp-c103="" class="row ng-star-inserted">
+                    <div _ngcontent-serverapp-c103="" class="col-4">
+                        <div
+                            _ngcontent-serverapp-c103=""
+                            id="v-pills-tab"
+                            role="tablist"
+                            aria-orientation="vertical"
+                            class="nav flex-column nav-pills"
+                        >
+                            <button
+                                _ngcontent-serverapp-c103=""
+                                data-bs-toggle="pill"
+                                type="button"
+                                role="tab"
+                                class="nav-link dot-relative active ng-star-inserted"
+                                id="Skill_filter-tab"
+                                data-bs-target="#Skill_filter"
+                                aria-controls="Skill_filter"
+                                aria-selected="true"
+                            >
+                                Skill
+                            </button>
+                            <button
+                                _ngcontent-serverapp-c103=""
+                                data-bs-toggle="pill"
+                                type="button"
+                                role="tab"
+                                class="nav-link dot-relative ng-star-inserted"
+                                id="Language_filter-tab"
+                                data-bs-target="#Language_filter"
+                                aria-controls="Language_filter"
+                                aria-selected="false"
+                            >
+                                Language
+                            </button>
+                            <button
+                                _ngcontent-serverapp-c103=""
+                                data-bs-toggle="pill"
+                                type="button"
+                                role="tab"
+                                class="nav-link dot-relative ng-star-inserted"
+                                id="Gender_filter-tab"
+                                data-bs-target="#Gender_filter"
+                                aria-controls="Gender_filter"
+                                aria-selected="false"
+                            >
+                                Gender
+                            </button>
+                            <button
+                                _ngcontent-serverapp-c103=""
+                                data-bs-toggle="pill"
+                                type="button"
+                                role="tab"
+                                class="nav-link dot-relative ng-star-inserted"
+                                id="Country_filter-tab"
+                                data-bs-target="#Country_filter"
+                                aria-controls="Country_filter"
+                                aria-selected="false"
+                            >
+                                Country
+                            </button>
+                            <button
+                                _ngcontent-serverapp-c103=""
+                                data-bs-toggle="pill"
+                                type="button"
+                                role="tab"
+                                class="nav-link dot-relative ng-star-inserted"
+                                id="Offer_filter-tab"
+                                data-bs-target="#Offer_filter"
+                                aria-controls="Offer_filter"
+                                aria-selected="false"
+                            >
+                                Offer
+                            </button>
+                            <button
+                                _ngcontent-serverapp-c103=""
+                                data-bs-toggle="pill"
+                                type="button"
+                                role="tab"
+                                class="nav-link dot-relative ng-star-inserted"
+                                id="Top_Astrologers_filter-tab"
+                                data-bs-target="#Top_Astrologers_filter"
+                                aria-controls="Top_Astrologers_filter"
+                                aria-selected="false"
+                            >
+                                Top Astrologers
+                            </button>
+                        </div>
+                    </div>
+                    <div _ngcontent-serverapp-c103="" class="col-8">
+                        <div
+                            _ngcontent-serverapp-c103=""
+                            id="v-pills-tabContent"
+                            class="tab-content"
+                        >
+                            <div
+                                _ngcontent-serverapp-c103=""
+                                role="tabpanel"
+                                class="tab-pane fade active show ng-star-inserted"
+                                id="Skill_filter"
+                                aria-labelledby="Skill_filter-tab"
+                            >
+                                <!-- Content for Skill Filter -->
+                            </div>
+                            <!-- Additional tab content goes here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+SEARCH------------------------
+<input _ngcontent-serverapp-c103="" name="searchText" type="search" autocomplete="off" id="searchAstroQuery" class="form-control postion_Rel ng-pristine ng-valid ng-touched" placeholder="Search name...">
+
+
+CHAT WITH ASTROLOGER HEADING------------------------
+<h1 _ngcontent-serverapp-c103="" class="heading_chat_with_astrologer">Chat with Astrologer</h1>
+
+
+
